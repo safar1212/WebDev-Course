@@ -1,0 +1,149 @@
+* {
+    font-family: 'Lato', sans-serif;
+    box-sizing: border-box;
+}
+
+header {
+height: 730px;
+width: 100%;
+background-image: url(./images/mobile-head.png);
+background-repeat: no-repeat;
+background-size: cover;
+/* display: flex; */
+}
+
+#burgerIcon {
+  padding-top: 15px;
+  padding-left: 5%;
+  margin: 0 auto;
+}
+
+/* header section */
+
+#burgerIcon img {
+    width: 30px;
+    height: 30px;
+}
+
+#headline #vision {
+    color: #ec5242;
+    font-weight: 500;
+    margin-top: 40px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#vision p {
+    font-size: 25px;
+}
+
+#vision h1 {
+    color: #ec5242;
+    font-weight: 900;
+    margin-top: -20px;
+    font-size: 35px;
+}
+
+header #headlinePara {
+    margin: 0 auto;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 20px;
+    background-color: whitesmoke;
+    border: 2px white solid;
+}
+
+#headline #time {
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 25px;
+    
+}
+
+#headline #time h2 {
+    font-weight: 900;
+    
+}
+
+/* main-section */
+
+#mainProgram {
+    height: 1000px;
+    background-color: #272a31;
+}
+
+#mainProgram .title {
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    /* font-size: 28px; */
+    color: whitesmoke;
+}
+
+#mainProgram hr {
+    border: #ec5242 2px solid;
+    width: 60px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-rows: 140px 140px 140px 140px 140px;
+    margin-top: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .grid-item {
+      border: 6px #272a31 solid;
+      background-color: #72727265;
+      display: flex;
+      align-items: center;
+      
+  }
+
+  .grid-item img {
+      width: 70px;
+      height: 70px;
+      padding-left: 10px;
+      padding-right: 10px;
+      
+  }
+
+  .grid-item h2 {
+    color: #ec5242;
+    padding-left: 10px;
+    padding-right: 10px;
+      
+  }
+
+  .grid-item p {
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    line-height: 20px;
+    font-size: 20px;
+  }
+
+  #mainProgram .buttons {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+      
+  }
+
+.buttons button {
+    background-color: #ec5242;
+    border: 1px #ec5242 solid;
+    height: 100px;
+    width: 70%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 30px;
+  }
