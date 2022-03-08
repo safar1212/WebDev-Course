@@ -3,6 +3,13 @@
   box-sizing: border-box;
 }
 
+.page {
+    display: none;
+}
+.nav {
+    display: none;
+}
+
 header {
   height: 730px;
   width: 100%;
@@ -185,177 +192,187 @@ hr {
   background-position: 2px 2px;
 }
 
+#mainProgram .programDetails {
+    display: none;
+}
+
 .details .expertise {
   color: #ec5242;
 }
 
-/* about section */
+@media screen and (min-width: 768px) {
+  nav #burgerIcon {
+    display: none;
+  }
+  
+  header {
+      height: 950px;
+  }
 
-#about {
-  height: 2000px;
-  width: 100%;
-}
+  nav .page {
+      width: 100%;
+      background-color: #272a31;
+      height: 40px;
+      display: flex;
+      align-items: center;
+     justify-content: flex-end;
+     padding-right: 10%;
+  }
 
-.aboutUs {
-  background-color: rgb(245, 245, 245);
-  background-image: url(./images/about-background.png);
-  background-repeat: no-repeat;
-  background-size: 1087px 300px;
-}
+  nav .page img {
+      width: 25px;
+      height: 25px;
+  }
 
-#aboutVision {
-  display: flex;
-  flex-wrap: wrap;
-  height: 250px;
-  justify-content: center;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-  align-content: center;
-}
+  nav .page ul {
+      display: flex;
+      gap: 20px;
+  }
 
-#aboutVision p {
-  font-size: 25px;
-  color: #ec5242;
-}
+  nav .page li {
+      display: flex;
+      list-style-type: none;
+  }
 
-#aboutVision h2 {
-  color: #ec5242;
-  display: flex;
-  font-size: 33px;
-  font-weight: 900;
-  margin-top: -10px;
-}
+  nav .page li a {
+    color: white;
+    text-decoration: none;  
+  }
 
-.aboutPara {
-  width: 90%;
-  margin: 0 auto;
-  font-size: 20px;
-  text-align: center;
-  background-color: white;
-}
+  nav .nav {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    background-color: white;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+  }
 
-.aboutEmail {
-  display: flex;
-  justify-content: center;
-  line-height: 25px;
-}
+  .nav .logo img {
+      width: 70px;
+      height: 70px;
+  }
 
-.aboutUsLogo {
-  width: 100%;
-  border-bottom: 3px whitesmoke solid;
-  height: 530px;
-}
+  .nav .navList {
+      display: flex;
+  }
 
-.aboutUsLogo h2 {
-  display: flex;
-  justify-content: center;
-  font-size: 25px;
-}
+  .navList ul {
+    display: flex;
+    gap: 80px;
+    font-size: 20px;
+    align-items: center;
+  }
 
-.aboutUsLogo p {
-  display: flex;
-  text-align: center;
-  width: 90%;
-  margin: 0 auto;
-  margin-top: 20px;
-}
+  .navList ul li {
+    list-style-type: none;
+    display: flex;
+  }
 
-.aboutUsLogo img {
-  margin: 0 auto;
-  margin-top: 30px;
-  width: 90%;
-  display: flex;
-  height: 300px;
-}
+  .navList ul li a {
+    color: black;
+    text-decoration: none;
+  }
 
-.aboutUsPast {
-  width: 100%;
-}
+  .navList ul .cont {
+      border: 6px #ec5242 solid;
+      padding: 12px;
+  }
 
-.aboutUsPast h2 {
-  display: flex;
-  text-align: center;
-  justify-content: center;
-  font-size: 25px;
-}
+  header #headline {
+      margin-top: 100px;
+  }
 
-.aboutUsPast p {
-  display: flex;
-  text-align: center;
-  width: 90%;
-  margin: 0 auto;
-  margin-top: 20px;
-  justify-content: center;
-}
+  header #headline #vision {
+      width: 70%;
+      margin: 0 auto;
+  }
 
-.aboutUsPast .one {
-  background-image: url(./images/last-batch-1.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 230px;
-  width: 90%;
-  margin: 0 auto;
-}
+  #headline #vision p {
+      font-size: 40px;
+  }
 
-.aboutUsPast .two {
-  background-image: url(./images/last-batch-2.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 230px;
-  width: 90%;
-  margin: 0 auto;
-}
+  #headline #vision h1 {
+      font-size: 70px;
+  }
 
-.aboutUsPast .batches {
-  width: 100%;
-  height: 230px;
-  background-color: rgba(206, 16, 16, 0.4);
-  display: flex;
-  align-items: center;
-  margin-top: 30px;
-}
+  #headline #headlinePara {
+    width: 70%;
+    margin: 0 auto;
+  }
 
-.aboutUsPast .batches p {
-  color: white;
-  font-weight: 900;
-  font-size: 25px;
-}
+  #headline #time {
+      width: 70%;
+      margin: 0 auto;
+  }
 
-.aboutUsPartners {
-  width: 100%;
-  height: 300px;
-  margin: 0 auto;
-  margin-top: 30px;
-  background-color: #272a31;
-  background-image:
-    url(./images/ahraf.png),
-    url(./images/android.png),
-    url(./images/aoi.png),
-    url(./images/airbnb.png),
-    url(./images/bing.png);
-  background-repeat: no-repeat;
-  background-position: 85% 85%, 15% 48%, 50% 48%, 15% 85%, 87% 48%;
-  background-size: 30%, 20%, 35%, 30%, 20%;
-}
+  #mainProgram {
+      height: 600px;
+  }
 
-.aboutUsPartners h2 {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: white;
-}
+  #mainProgram .grid-container {
+      display: flex;
+  }
 
-.copyright {
-  display: flex;
-  height: 150px;
-  align-content: center;
-  align-items: center;
-  justify-content: space-around;
-  font-weight: 800;
-}
+  .grid-container .grid-item {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      margin-top: 40px;
+      margin-bottom: 40px;
+  }
 
-.copyright img {
-  height: 112px;
-  width: 141px;
+  #mainProgram .buttons {
+      display: none;
+  }
+
+  #mainProgram .programDetails {
+      display: flex;
+      justify-content: center;
+      color: white;
+      text-decoration: underline;
+  }
+
+  .foot .aboutUsPartners {
+    width: 100%;
+    height: 300px;
+    margin: 0 auto;
+    margin-top: 30px;
+    background-color: #272a31;
+    background-image:
+      url(./images/ahraf.png),
+      url(./images/android.png),
+      url(./images/aoi.png),
+      url(./images/airbnb.png),
+      url(./images/bing.png);
+    background-repeat: no-repeat;
+    background-position: 304px 136px, 587px 99px, 802px 95px, 74px 135px, 1072px 108px;
+    background-size: 178px, 124px, 223px, 171px, 100px;
+  }
+  
+  .foot .aboutUsPartners h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+  }
+  
+  .foot .copyright {
+    display: flex;
+    height: 150px;
+    align-content: center;
+    align-items: center;
+    justify-content: space-around;
+    font-weight: 800;
+  }
+  
+ .foot .copyright img {
+    height: 112px;
+    width: 141px;
+  }
+
+
+
+
 }
