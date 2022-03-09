@@ -27,18 +27,62 @@ header {
 
 /* header section */
 
+.grid-item img {
+  width: 70px;
+  height: 70px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.grid-item1 img {
+  width: 100px;
+  height: 100px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
 #burgerIcon img {
-  width: 30px;
-  height: 30px;
+  width: 50px;
+  height: 50px;
+}
+
+/* JS section starts */
+
+#cross {
+  position: fixed;
+  background-color: #ec5242;
+  background-size: cover;
+  top: 0%;
+  left: 0%;
+  overflow: hidden;
 }
 
 #cross img {
   display: none;
-  width: 55px;
-  height: 55px;
-  padding-top: 15px;
-  padding-left: 5%;
+  width: 75px;
+  height: 70px;
+  padding-top: 25px;
+  padding-left: 6%;
 }
+
+#cross #menu {
+  display: none;
+  gap: 30px;
+  font-size: 30px;
+  font-weight: 700;
+  flex-direction: column;
+}
+
+#cross #menu li {
+  list-style-type: none;
+}
+
+#cross #menu li a {
+  color: black;
+  text-decoration: none;
+}
+
+/* Js section ends */
 
 #headline #vision {
   color: #ec5242;
@@ -46,6 +90,14 @@ header {
   margin-top: 40px;
   margin-left: 5%;
   margin-right: 5%;
+}
+
+.grid-item p {
+  color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+  line-height: 20px;
+  font-size: 20px;
 }
 
 #vision p {
@@ -74,6 +126,12 @@ header #headlinePara {
   margin-left: 5%;
   margin-right: 5%;
   font-size: 25px;
+}
+
+.grid-item h2 {
+  color: #ec5242;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 #headline #time h2 {
@@ -113,27 +171,6 @@ hr {
   background-color: #72727265;
   display: flex;
   align-items: center;
-}
-
-.grid-item img {
-  width: 70px;
-  height: 70px;
-  padding-left: 10px;
-  padding-right: 10px;
-}
-
-.grid-item h2 {
-  color: #ec5242;
-  padding-left: 10px;
-  padding-right: 10px;
-}
-
-.grid-item p {
-  color: white;
-  padding-left: 10px;
-  padding-right: 10px;
-  line-height: 20px;
-  font-size: 20px;
 }
 
 #mainProgram .buttons {
@@ -187,13 +224,6 @@ hr {
   gap: 10px;
 }
 
-.grid-item1 img {
-  width: 100px;
-  height: 100px;
-  margin-left: 20px;
-  margin-top: 20px;
-}
-
 .grid-container1 .staffImage {
   background-image: url(./images/chess.jpg);
   background-repeat: no-repeat;
@@ -233,6 +263,13 @@ hr {
     height: 25px;
   }
 
+  .navList ul {
+    display: flex;
+    gap: 80px;
+    font-size: 20px;
+    align-items: center;
+  }
+
   nav .page ul {
     display: flex;
     gap: 20px;
@@ -267,13 +304,6 @@ hr {
     display: flex;
   }
 
-  .navList ul {
-    display: flex;
-    gap: 80px;
-    font-size: 20px;
-    align-items: center;
-  }
-
   .navList ul li {
     list-style-type: none;
     display: flex;
@@ -296,6 +326,11 @@ hr {
   header #headline #vision {
     width: 70%;
     margin: 0 auto;
+  }
+
+  .foot .copyright p {
+    display: flex;
+    color: black;
   }
 
   #headline #vision p {
@@ -391,10 +426,5 @@ hr {
   .foot .copyright img {
     height: 112px;
     width: 141px;
-  }
-
-  .foot .copyright p {
-    display: flex;
-    color: black;
   }
 }
