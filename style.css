@@ -4,10 +4,11 @@
 }
 
 .page {
-    display: none;
+  display: none;
 }
+
 .nav {
-    display: none;
+  display: none;
 }
 
 header {
@@ -29,6 +30,14 @@ header {
 #burgerIcon img {
   width: 30px;
   height: 30px;
+}
+
+#cross img {
+  display: none;
+  width: 55px;
+  height: 55px;
+  padding-top: 15px;
+  padding-left: 5%;
 }
 
 #headline #vision {
@@ -193,7 +202,7 @@ hr {
 }
 
 #mainProgram .programDetails {
-    display: none;
+  display: none;
 }
 
 .details .expertise {
@@ -204,39 +213,39 @@ hr {
   nav #burgerIcon {
     display: none;
   }
-  
+
   header {
-      height: 950px;
+    height: 950px;
   }
 
   nav .page {
-      width: 100%;
-      background-color: #272a31;
-      height: 40px;
-      display: flex;
-      align-items: center;
-     justify-content: flex-end;
-     padding-right: 10%;
+    width: 100%;
+    background-color: #272a31;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 10%;
   }
 
   nav .page img {
-      width: 25px;
-      height: 25px;
+    width: 25px;
+    height: 25px;
   }
 
   nav .page ul {
-      display: flex;
-      gap: 20px;
+    display: flex;
+    gap: 20px;
   }
 
   nav .page li {
-      display: flex;
-      list-style-type: none;
+    display: flex;
+    list-style-type: none;
   }
 
   nav .page li a {
     color: white;
-    text-decoration: none;  
+    text-decoration: none;
   }
 
   nav .nav {
@@ -250,12 +259,12 @@ hr {
   }
 
   .nav .logo img {
-      width: 70px;
-      height: 70px;
+    width: 70px;
+    height: 70px;
   }
 
   .nav .navList {
-      display: flex;
+    display: flex;
   }
 
   .navList ul {
@@ -276,25 +285,25 @@ hr {
   }
 
   .navList ul .cont {
-      border: 6px #ec5242 solid;
-      padding: 12px;
+    border: 6px #ec5242 solid;
+    padding: 12px;
   }
 
   header #headline {
-      margin-top: 100px;
+    margin-top: 100px;
   }
 
   header #headline #vision {
-      width: 70%;
-      margin: 0 auto;
+    width: 70%;
+    margin: 0 auto;
   }
 
   #headline #vision p {
-      font-size: 40px;
+    font-size: 40px;
   }
 
   #headline #vision h1 {
-      font-size: 70px;
+    font-size: 70px;
   }
 
   #headline #headlinePara {
@@ -303,35 +312,47 @@ hr {
   }
 
   #headline #time {
-      width: 70%;
-      margin: 0 auto;
+    width: 70%;
+    margin: 0 auto;
   }
 
   #mainProgram {
-      height: 600px;
+    height: 600px;
   }
 
   #mainProgram .grid-container {
-      display: flex;
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
   }
 
   .grid-container .grid-item {
-      display: flex;
-      flex-direction: column;
-      text-align: center;
-      margin-top: 40px;
-      margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
   }
 
   #mainProgram .buttons {
-      display: none;
+    display: none;
   }
 
   #mainProgram .programDetails {
-      display: flex;
-      justify-content: center;
-      color: white;
-      text-decoration: underline;
+    display: flex;
+    justify-content: center;
+    color: white;
+    text-decoration: underline;
+  }
+
+  .grid-container1 {
+    display: grid;
+    grid-template-columns: 40% 40%;
+    grid-template-rows: auto auto auto;
+    width: 80%;
+    justify-content: space-around;
+    margin: 0 auto;
+    margin-top: 20px;
   }
 
   .foot .aboutUsPartners {
@@ -347,17 +368,17 @@ hr {
       url(./images/airbnb.png),
       url(./images/bing.png);
     background-repeat: no-repeat;
-    background-position: 304px 136px, 587px 99px, 802px 95px, 74px 135px, 1072px 108px;
+    background-position: 10% 50%, 30% 50%, 50% 50%, 70% 50%, 90% 50%;
     background-size: 178px, 124px, 223px, 171px, 100px;
   }
-  
+
   .foot .aboutUsPartners h2 {
     display: flex;
     align-items: center;
     justify-content: center;
     color: white;
   }
-  
+
   .foot .copyright {
     display: flex;
     height: 150px;
@@ -366,13 +387,14 @@ hr {
     justify-content: space-around;
     font-weight: 800;
   }
-  
- .foot .copyright img {
+
+  .foot .copyright img {
     height: 112px;
     width: 141px;
   }
 
-
-
-
+  .foot .copyright p {
+    display: flex;
+    color: black;
+  }
 }
