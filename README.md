@@ -18,13 +18,15 @@
 
 ### Create a stunning headline
 
-### Create a work section
+### Create The Courses section.
 
 ### Create an about us page
 
+### Used JS to develop dynamic teacher's section
+
 ## Live Preview
 
--This site was built using [GitHub Pages](https://safar1212.github.io/Portfolio/).
+-Here you can check for the live version of the website. This site was built using [GitHub Pages](https://safar1212.github.io/WebDev-Course/).
 
 
 
