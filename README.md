@@ -2,12 +2,22 @@
 
 
 
-> In this Portfolio website, I have created a website for Web development. Thi website contains contains two sections. The main page and about us.
+> In this Portfolio website, I have created a website for Web development. This website contains contains two sections. The main page and about us.
 
 
 ## Built With
 
 - HTML, CSS and Javascript
+
+
+## Desktop Preview
+
+![2022-04-14_17-43-22](https://user-images.githubusercontent.com/78845635/163393120-bb8401d7-cc43-4699-8d58-5ad5e3a98bb1.jpg)
+
+
+## Mobile Preview
+
+![2022-04-14_17-46-21](https://user-images.githubusercontent.com/78845635/163393424-6b0e3880-d0cc-432d-976b-6e361071e060.jpg)
 
 
 ## Getting Started
@@ -26,7 +36,7 @@
 
 ## Live Preview
 
--Here you can check for the live version of the website. This site was built using [GitHub Pages](https://safar1212.github.io/WebDev-Course/).
+This site was built using [GitHub Pages](https://safar1212.github.io/WebDev-Course/).
 
 
 
