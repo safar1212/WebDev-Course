@@ -2,7 +2,7 @@
 
 
 
-> In this Portfolio website, I have created a website for Web development school. This website contains information about courses offered, the list of officials along with their positions, and contact information etc.
+> In this Portfolio website, I have created a website for Web development school. This website contains information about courses offered, the list of officials along with their positions, contact information, and other info related to the school.
 
 
 ## Built With
